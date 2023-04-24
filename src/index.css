@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* styling Cards  */
+.d-grid.gap-2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.cardImgs {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#homeCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 200ms ease-out;
+}
+
+/* header styles */
+header {
+  padding-bottom: 3rem !important;
+}
+.book {
+  color: #145b15;
+  font-size: 30px;
+}
+.logo {
+  padding-left: 10px;
+  color: #145b15;
+  font-weight: 500;
+  text-decoration: none;
+}
+.link {
+  color: #145b15;
+}
+.searchIcon {
+  font-size: 22px;
+}
+.moduleItemName {
+  text-align: center;
+  color: #595959;
+}
+.studyTipsIcon {
+  color: #4997d7;
+  font-size: 33px;
+  padding-left: 5px;
+}
+h2,
+h3,
+h4,
+h5,
+.list-group-item .homeIconLink {
+  color: #595959;
+}
+.homeIcon {
+  color: #fff;
+}
+
+.aboutUsIcon {
+  color: #e91e63;
+}
+
+svg.homeIcon {
+  font-size: 20px;
+}
+
+#homeIconLink {
+  margin-bottom: 20px;
+}
+
+svg.plusIcon,
+svg {
+  color: #fff;
+  font-size: 20px;
+}
+
+.moduleLinkCard,
+.addModuleBtnLink {
+  text-decoration: none;
+}
+
+button.navbar-toggler.collapsed,
+button.navbar-toggler {
+  margin-right: 10px;
+}
+
+div#responsive-navbar-nav {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar,
+.me-auto.navbar-nav {
+  gap: 20px;
+}
+
+/* styles for the box that wraps 
+around the main body of our app */
+.structure {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#appBox {
+  border: 1px solid lightgrey;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button.btn.btn-success.btn-lg,
+button#updateCollegeModuleBtn {
+  border-radius: 0.25rem;
+}
+
+/* styles for the NewCollegeModuleForm AND SingleCollegeModule components */
+.moduleAddCancelBtns {
+  padding-top: 20px;
+}
+
+.moduleAddCancelBtns,
+.moduleEditBtn {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#addModuleBtn,
+#editModuleBtn,
+#certainlyDeleteModuleBtn,
+#updateCollegeModuleBtn {
+  flex-grow: 4;
+}
+
+button#addModuleBtn,
+#editModuleBtn,
+button#deleteModuleBtn,
+#certainlyDeleteModuleBtn,
+#updateCollegeModuleBtn,
+#homeIconLink {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#homeIconLink {
+  margin-top: 20px;
+}
+
+#cancelModuleBtn {
+  flex-grow: 1;
+}
+
+.moduleTitle {
+  display: flex;
+}
+
+/*Styles for EditCollegeModule.js component */
+#notesBtn {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.notesBox {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+/*styles the footer component*/
+footer,
+.d-flex,
+#footer-icons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
