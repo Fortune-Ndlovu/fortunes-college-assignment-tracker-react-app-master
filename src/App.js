@@ -121,7 +121,7 @@ function App() {
 
                 {/* Any path that starts with "/add/" render the SingleCollegeModule component*/}
                 <Route
-                  path="/add/"
+                  path="fortunes-college-assignment-tracker-react-app-master/add/"
                   element={
                     <NewCollegeModuleForm onSubmitHandler={addCollegeModule} />
                   }
@@ -129,7 +129,7 @@ function App() {
 
                 {/* Any path that starts with "/module/" render the SingleCollegeModule component*/}
                 <Route
-                  path="/module/:moduleID"
+                  path="fortunes-college-assignment-tracker-react-app-master/module/:moduleID"
                   element={
                     <SingleCollegeModule
                       modules={collegeModules}
@@ -140,7 +140,7 @@ function App() {
 
                 {/* Any path that starts with "/edit/" render the EditCollegeModule component*/}
                 <Route
-                  path="/edit/:moduleID"
+                  path="fortunes-college-assignment-tracker-react-app-master/edit/:moduleID"
                   element={
                     <EditCollegeModuleForm
                       modules={collegeModules}

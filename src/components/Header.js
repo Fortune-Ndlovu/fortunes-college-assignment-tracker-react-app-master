@@ -23,10 +23,10 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link to={"/studyTips"} className="link">
+              <Link to={"/fortunes-college-assignment-tracker-react-app-master/studyTips"} className="link">
                 Study Tips
               </Link>
-              <Link to={"/about"} className="link">
+              <Link to={"/fortunes-college-assignment-tracker-react-app-master/about"} className="link">
                 About Us
               </Link>
             </Nav>

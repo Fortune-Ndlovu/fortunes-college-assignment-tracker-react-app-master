@@ -9,7 +9,11 @@ const ReturnHomeBtn = () => {
   return (
     <>
       {match ? (
-        <Link to={"/"} className="btn btn-sm btn-success" id="homeIconLink">
+        <Link
+          to={"/fortunes-college-assignment-tracker-react-app-master/"}
+          className="btn btn-sm btn-success"
+          id="homeIconLink"
+        >
           <AiFillHome className="homeIcon" /> Return home
         </Link>
       ) : null}

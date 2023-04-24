@@ -16,10 +16,10 @@ const DeleteModule = ({ onDelete, moduleToDisplay }) => {
 
     if (code === "javascript-is-cool") {
       onDelete(moduleToDisplay.id);
-      navigate("/");
+      navigate("/fortunes-college-assignment-tracker-react-app-master/");
     } else {
       alert("Invalid code, Please try again later");
-      navigate("/");
+      navigate("/fortunes-college-assignment-tracker-react-app-master/");
     }
   };
 
