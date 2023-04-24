@@ -16,7 +16,7 @@ const Footer = () => {
           <CDBBox display="flex" justifyContent="between" className="flex-wrap">
             <CDBBox>
               <Link
-                to={"/fortunes-college-assignment-tracker-react-app-master"}
+                to={"/fortunes-college-assignment-tracker-react-app-master/"}
                 className="d-flex align-items-center text-dark"
               >
                 <span

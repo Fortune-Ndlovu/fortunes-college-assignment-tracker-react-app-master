@@ -16,7 +16,7 @@ const Header = () => {
         style={{ backgroundColor: "#e3f2fd" }}
       >
         <Container className="navbar">
-          <Link to={"/fortunes-college-assignment-tracker-react-app-master"} className="logo">
+          <Link to={"/fortunes-college-assignment-tracker-react-app-master/"} className="logo">
             <BsFillJournalBookmarkFill className="book" />
             Module Tracker
           </Link>
