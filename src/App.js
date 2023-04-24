@@ -110,7 +110,7 @@ function App() {
                 <Route path="/about" element={<About />} />
 
                 <Route
-                  path="/"
+                  path="/fortunes-college-assignment-tracker-react-app-master"
                   element={
                     <div className="row align-items-center">
                       {/* Component that renders the list of college modules */}
