@@ -16,17 +16,20 @@ const Header = () => {
         style={{ backgroundColor: "#e3f2fd" }}
       >
         <Container className="navbar">
-          <Link to={"/fortunes-college-assignment-tracker-react-app-master/"} className="logo">
+          <Link
+            to={"/fortunes-college-assignment-tracker-react-app-master/"}
+            className="logo"
+          >
             <BsFillJournalBookmarkFill className="book" />
             Module Tracker
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link to={"/fortunes-college-assignment-tracker-react-app-master/studyTips"} className="link">
+              <Link to={"/studyTips"} className="link">
                 Study Tips
               </Link>
-              <Link to={"/fortunes-college-assignment-tracker-react-app-master/about"} className="link">
+              <Link to={"/about"} className="link">
                 About Us
               </Link>
             </Nav>

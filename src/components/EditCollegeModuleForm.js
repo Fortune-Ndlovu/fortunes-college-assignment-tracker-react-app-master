@@ -7,7 +7,8 @@ const EditCollegeModuleForm = ({ modules, onEdit }) => {
   const [name, setName] = useState("");
   const [userImage, setUserImage] = useState(null);
   const [assignmentName, setAssignmentName] = useState("");
-  const [assignmentDateGivenOut, setAssignmentDateGivenOut] = useState("");
+  const [assignmentDateGivenOut, setAssignmentDateGivenOut] =
+    useState("");
   const [assignmentDateTimeGivenDue, setAssignmentDateTimeGivenDue] =
     useState("");
   const [grade, setGrade] = useState("");
@@ -118,12 +119,9 @@ const EditCollegeModuleForm = ({ modules, onEdit }) => {
     onEdit(updatedModule);
 
     // The navigate method is used to navigate to a new root that displays the updated collge module and its current state as a prop.
-    navigate(
-      `fortunes-college-assignment-tracker-react-app-master/module/${updatedModule.id}`,
-      {
-        state: { notes: updatedModule.notes }
-      }
-    );
+    navigate(`/module/${updatedModule.id}`, {
+      state: { notes: updatedModule.notes }
+    });
   };
 
   return (

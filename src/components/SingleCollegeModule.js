@@ -75,7 +75,7 @@ const SingleCollegeModule = ({ modules, onDelete }) => {
               {/*  passing the value of the notes property of the moduleToDisplay object as a prop when you navigate to the /module/${updatedModule.id} */}
               <div className="moduleEditBtn">
                 <Link
-                  to={`fortunes-college-assignment-tracker-react-app-master/edit/${moduleToDisplay.id}`}
+                  to={`/edit/${moduleToDisplay.id}`}
                   state={{ notes: moduleToDisplay.notes }}
                   className="btn btn-sm btn-success"
                   id="editModuleBtn"
