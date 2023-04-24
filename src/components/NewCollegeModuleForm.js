@@ -14,7 +14,7 @@ const NewCollegeModuleForm = ({ onSubmitHandler }) => {
 
   const handleFormCancel = (e) => {
     e.preventDefault();
-    navigate("/");
+    navigate("/fortunes-college-assignment-tracker-react-app-master/");
   };
 
   const handleSubmit = (e) => {
@@ -54,7 +54,7 @@ const NewCollegeModuleForm = ({ onSubmitHandler }) => {
 
         // Call the onSubmitHandler function that was passed in via prop
         onSubmitHandler(newCollegeModule);
-        navigate("/");
+        navigate("/fortunes-college-assignment-tracker-react-app-master/");
       };
       reader.readAsDataURL(newCollegeModule.image);
     }
@@ -65,7 +65,7 @@ const NewCollegeModuleForm = ({ onSubmitHandler }) => {
       <div className="form-group">
         <div className="mb-3">
           <label htmlFor="modulesName" className="form-label">
-           Module Name:{" "}
+            Module Name:{" "}
           </label>
           <input
             type="text"

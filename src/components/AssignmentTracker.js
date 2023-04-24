@@ -8,7 +8,7 @@ const AssignmentTracker = ({ modules }) => {
     <>
       {modules.map((item) => (
         <div className="col-sm-6" key={item.id}>
-          <Link to={`fortunes-college-assignment-tracker-react-app-master/module/${item.id}`} className="moduleLinkCard">
+          <Link to={`/module/${item.id}`} className="moduleLinkCard">
             <Card id="homeCard">
               <Card.Img
                 variant="top"
@@ -28,7 +28,7 @@ const AssignmentTracker = ({ modules }) => {
           <br />
         </div>
       ))}
-      <Link to={"fortunes-college-assignment-tracker-react-app-master/add/"} className="addModuleBtnLink">
+      <Link to={"/add/"} className="addModuleBtnLink">
         <div className="d-grid gap-2">
           <Button variant="success" size="lg">
             Add Module
