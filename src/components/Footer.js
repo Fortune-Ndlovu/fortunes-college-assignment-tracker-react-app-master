@@ -15,7 +15,10 @@ const Footer = () => {
         >
           <CDBBox display="flex" justifyContent="between" className="flex-wrap">
             <CDBBox>
-              <Link to={"/"} className="d-flex align-items-center text-dark">
+              <Link
+                to={"/fortunes-college-assignment-tracker-react-app-master"}
+                className="d-flex align-items-center text-dark"
+              >
                 <span
                   className="h5 font-weight-bold"
                   style={{ color: "#145B15", textDecoration: "none" }}
