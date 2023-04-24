@@ -28,7 +28,7 @@ const AssignmentTracker = ({ modules }) => {
           <br />
         </div>
       ))}
-      <Link to={"/add/"} className="addModuleBtnLink">
+      <Link to={"fortunes-college-assignment-tracker-react-app-master/add/"} className="addModuleBtnLink">
         <div className="d-grid gap-2">
           <Button variant="success" size="lg">
             Add Module
