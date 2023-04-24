@@ -8,7 +8,7 @@ const AssignmentTracker = ({ modules }) => {
     <>
       {modules.map((item) => (
         <div className="col-sm-6" key={item.id}>
-          <Link to={`/module/${item.id}`} className="moduleLinkCard">
+          <Link to={`fortunes-college-assignment-tracker-react-app-master/module/${item.id}`} className="moduleLinkCard">
             <Card id="homeCard">
               <Card.Img
                 variant="top"
