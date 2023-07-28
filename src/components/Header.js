@@ -17,7 +17,7 @@ const Header = () => {
       >
         <Container className="navbar">
           <Link
-            to={"/fortunes-college-assignment-tracker-react-app-master/"}
+            to={"/Module-tracker-react-app/"}
             className="logo"
           >
             <BsFillJournalBookmarkFill className="book" />
