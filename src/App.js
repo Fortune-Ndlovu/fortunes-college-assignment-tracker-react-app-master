@@ -119,7 +119,7 @@ function App() {
                   }
                 />
 
-                {/* Any path that starts with "/add/" render the SingleCollegeModule component*/}
+                {/* Any path that starts with "/add/" render the SingleCollegeModule component, similar functionality for the following routes*/}
                 <Route
                   path="/add/"
                   element={
@@ -127,7 +127,6 @@ function App() {
                   }
                 />
 
-                {/* Any path that starts with "/module/" render the SingleCollegeModule component*/}
                 <Route
                   path="/module/:moduleID"
                   element={
@@ -138,7 +137,6 @@ function App() {
                   }
                 />
 
-                {/* Any path that starts with "/edit/" render the EditCollegeModule component*/}
                 <Route
                   path="/edit/:moduleID"
                   element={
